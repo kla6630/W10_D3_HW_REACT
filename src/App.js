@@ -22,8 +22,8 @@ function App() {
           {/* {<Route path="/" element={<Home />} />} */}
           <Route path="/tv-shows" element={<TvShows />} />
           {/* {<Route path="/movies" element={<Movies />} />
-          <Route path="/recently-added" element={<RecentlyAdded />} />
-          <Route path="*" element={<NotFound spacings="mt-5 pt-5" />} />} {collegamento alla pagina 404 */}
+          <Route path="/recently-added" element={<RecentlyAdded />} />*/}
+          <Route path="*" element={<NotFound spacings="mt-5 pt-5" />} /> {/*collegamento alla pagina 404 */}
         </Routes>
 
         <NetflixTVShowsBar />
